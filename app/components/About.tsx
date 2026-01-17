@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AboutMeSection() {
   return (
-    <section className="py-2 lg:py-20">
+    <section id="about" className="py-2 lg:py-20">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         {/* Section Title */}
         <div className="text-center mb-12">

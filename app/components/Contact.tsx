@@ -47,7 +47,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="py-12 sm:py-16">
+    <section id="contact" className="py-12 sm:py-16">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
 
         {/* ===== Title ===== */}

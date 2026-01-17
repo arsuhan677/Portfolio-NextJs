@@ -17,38 +17,38 @@ export default function Header() {
           {/* Left Links */}
 
           <div className="flex-shrink-0">
-            <Link href="/">
+            <Link href="#home">
               <div className="text-2xl font-bold text-indigo-600">LOGO</div>
             </Link>
           </div>
           
           <div className="hidden md:flex space-x-8 text-[18px]">
             <Link
-              href="/"
+              href="#home"
               className="text-gray-500 hover:text-gray-800 font-medium"
             >
               Home
             </Link>
             <Link
-              href="about"
+              href="#about"
               className="text-gray-500 hover:text-gray-800 font-medium"
             >
               About
             </Link>
             <Link
-              href="skills"
+              href="#skills"
               className="text-gray-500 hover:text-gray-800 font-medium"
             >
               Skills
             </Link>
             <Link
-              href="/projects"
+              href="#projects"
               className="text-gray-500 hover:text-gray-800 font-medium"
             >
-              Project
+              Projects
             </Link>
             <Link
-              href="/contact"
+              href="#contact"
               className="text-gray-500 hover:text-gray-800 font-medium"
             >
               Contact
@@ -58,7 +58,7 @@ export default function Header() {
           {/* Right Buttons */}
           <div className="hidden md:flex space-x-4">
             <Link
-              href="/contact"
+              href="#contact"
               className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition"
             >
               Hire me
@@ -117,42 +117,42 @@ export default function Header() {
       >
         <nav className="px-4 pt-4 pb-6 space-y-2">
           <Link
-            href="/"
+            href="#home"
             onClick={handleLinkClick}
             className="block px-3 py-2 rounded-md text-gray-900 hover:bg-indigo-50 hover:text-indigo-600 transition"
           >
             Home
           </Link>
           <Link
-            href="/about"
+            href="#about"
             onClick={handleLinkClick}
             className="block px-3 py-2 rounded-md text-gray-900 hover:bg-indigo-50 hover:text-indigo-600 transition"
           >
             About
           </Link>
           <Link
-            href="skills"
+            href="#skills"
             onClick={handleLinkClick}
             className="block px-3 py-2 rounded-md text-gray-900 hover:bg-indigo-50 hover:text-indigo-600 transition"
           >
-            Home
+            Skills
           </Link>
           <Link
-            href="project"
+            href="#project"
             onClick={handleLinkClick}
             className="block px-3 py-2 rounded-md text-gray-900 hover:bg-indigo-50 hover:text-indigo-600 transition"
           >
-            About
+            Projects
           </Link>
           <Link
-            href="contact"
+            href="#contact"
             onClick={handleLinkClick}
             className="block px-3 py-2 rounded-md text-gray-900 hover:bg-indigo-50 hover:text-indigo-600 transition"
           >
-            About
+            Contact
           </Link>
           <Link
-            href="/post"
+            href="#contact"
             onClick={handleLinkClick}
             className="block px-3 py-2 rounded-md text-white bg-indigo-600 hover:bg-indigo-700 transition"
           >
