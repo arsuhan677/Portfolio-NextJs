@@ -18,7 +18,7 @@ export default function Contact() {
   const [message, setMessage] = useState("");
   const [showSuccess, setShowSuccess] = useState(false);
 
-  const submitForm = async (e) => {
+  const submitForm = async (e: any) => {
     e.preventDefault();
 
     const response = await fetch("https://api.web3forms.com/submit", {
