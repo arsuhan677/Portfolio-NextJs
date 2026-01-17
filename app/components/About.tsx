@@ -21,7 +21,7 @@ export default function AboutMeSection() {
           {/* Image */}
           <div className="w-full lg:mt-8 md:w-4/8 relative">
             <Image
-              src="/images/suhan1.png"
+              src="/images/suhan.png"
               alt="About Me"
               width={600} 
               height={600}
