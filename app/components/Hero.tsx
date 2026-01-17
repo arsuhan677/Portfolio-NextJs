@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { FaGithub, FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa";
 
 export default function Hero() {
@@ -40,26 +41,36 @@ export default function Hero() {
 
           {/* BUTTONS */}
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
-            <a
-              href="#"
+            <Link
+              href="https://drive.google.com/file/d/1pZUD8rx7Dedg_3Xcw1FY4L6HBZ3peZJv/view"
               className="w-full sm:w-auto text-center px-6 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 font-semibold hover:opacity-90 transition"
             >
               ⬇ Download Resume
-            </a>
+            </Link>
 
-            <a
+            <Link
               href="#projects"
               className="w-full sm:w-auto text-center px-6 py-3 rounded-lg border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black transition"
             >
               👁 View Projects
-            </a>
+            </Link>
           </div>
 
           {/* SOCIAL ICONS */}
           <div className="flex justify-center lg:justify-start gap-5 mt-8 text-xl text-gray-400">
+            <Link
+            href="https://github.com/arsuhan677?tab=repositories"
+            >
             <FaGithub className="hover:text-white border rounded px-1 text-3xl cursor-pointer transition" />
+            </Link>
+            <Link href="https://www.linkedin.com/in/aminur-rahman-200366328/"
+            >
             <FaLinkedin className="hover:text-white border rounded px-1 text-3xl cursor-pointer transition" />
+            </Link>
+            <Link href="https://www.facebook.com/profile.php?id=100082093456990"
+            >
             <FaFacebook className="hover:text-white border rounded px-1 text-3xl cursor-pointer transition" />
+            </Link>
             <FaTwitter className="hover:text-white border rounded px-1 text-3xl cursor-pointer transition" />
           </div>
         </div>

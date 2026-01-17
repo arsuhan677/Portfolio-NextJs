@@ -39,8 +39,9 @@ export default function AboutMeSection() {
               I'm <span className="text-cyan-400"> Aminur Rahman,</span> a full-stack developer pursuing my Bachelor's in Computer Science & Engineering. I specialize in creating scalable, user-centric applications with modern technologies.
             </p>
             <p className="text-gray-300 lg:text-lg text-sm leading-relaxed">
-              With expertise in React, Next.js, Node.js, and modern databases, I build applications that solve real-world problems. My focus is on clean code, exceptional UX, and scalable architecture.
-              I've worked on OTA platforms, HRMS systems, and e-commerce solutions. I'm driven by the challenge of creating intuitive interfaces and robust backend systems that make a difference.
+              I specialize in React, Next.js, Node.js, and modern databases, building web applications that solve real-world problems. With a focus on clean code, scalable architecture, and great UX, I’ve worked on OTA platforms, HRMS systems, and e-commerce solutions. I’m passionate about creating intuitive interfaces and robust backends that make a meaningful impact.
+
+              scalable architecture, and great UX, I’ve worked on OTA platforms, HRMS systems, and e-commerce solutions. I’m passionate about creating intuitive interfaces and robust backends that make a meaningful impact.interfaces and robust backends that make a meaningful impact.
             </p>
             {/* Call to Action Buttons */}
             <div className="flex gap-3 lg:gap-6 mt-4">

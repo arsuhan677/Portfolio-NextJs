@@ -11,14 +11,14 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 shadow-lg bg-white">
+    <header className="sticky top-0 z-50 shadow-lg bg-gradient-to-br from-[#0b1023] via-[#0f172a] to-[#020617]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Left Links */}
 
           <div className="flex-shrink-0">
             <Link href="#home">
-              <div className="text-2xl font-bold text-indigo-600">LOGO</div>
+              <div className="text-2xl font-bold text-indigo-600">AR Suhan</div>
             </Link>
           </div>
           
@@ -59,9 +59,9 @@ export default function Header() {
           <div className="hidden md:flex space-x-4">
             <Link
               href="#contact"
-              className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition"
+              className="w-full sm:w-auto text-center text-white px-6 py-2 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 font-semibold hover:opacity-90 transition"
             >
-              Hire me
+              Hire Me
             </Link>
           </div>
 
