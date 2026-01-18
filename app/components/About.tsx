@@ -7,10 +7,10 @@ export default function AboutMeSection() {
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-300">
+          <h2 className="text-3xl sm:text-5xl font-extrabold text-gray-300">
             About Me
           </h2>
-          <p className="mt-4 text-gray-300 text-lg sm:text-xl">
+          <p className="mt-4 text-gray-200 text-base sm:text-xl">
             I’m a passionate developer crafting modern
           </p>
         </div>
@@ -36,7 +36,7 @@ export default function AboutMeSection() {
               <span className="lg:text-3xl text-xl bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Building Digital Solutions</span>
             </h3>
             <p className="text-gray-300 lg:text-lg text-sm leading-relaxed">
-              I'm <span className="text-cyan-400"> Aminur Rahman,</span> a full-stack developer pursuing my Bachelor's in Computer Science & Engineering. I specialize in creating scalable, user-centric applications with modern technologies.
+              I'm <span className="text-cyan-400 font-bold"> Aminur Rahman,</span> a full-stack developer pursuing my Bachelor's in Computer Science & Engineering. I specialize in creating scalable, user-centric applications with modern technologies.
             </p>
             <p className="text-gray-300 lg:text-lg text-sm leading-relaxed">
               I specialize in React, Next.js, Node.js, and modern databases, building web applications that solve real-world problems. With a focus on clean code, scalable architecture, and great UX, I’ve worked on OTA platforms, HRMS systems, and e-commerce solutions. I’m passionate about creating intuitive interfaces and robust backends that make a meaningful impact.
