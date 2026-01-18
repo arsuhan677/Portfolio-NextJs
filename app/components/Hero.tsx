@@ -27,14 +27,14 @@ export default function Hero() {
 
         {/* LEFT CONTENT */}
         <div className="order-2 lg:order-1 text-center lg:text-left">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
+          <h1 className="text-4xl sm:text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
             <span className="text-cyan-400 text-2xl lg:text-4xl">Hello, I'm</span> <br />
             <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
               Aminur Rahman
             </span>
           </h1>
 
-          <p className="mt-4 text-cyan-300 text-base sm:text-2xl">
+          <p className="mt-4 text-cyan-300 text-xl sm:text-2xl">
             Front End Developoer
           </p>
 
