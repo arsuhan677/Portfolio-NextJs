@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function AboutMeSection() {
   return (
@@ -7,8 +8,10 @@ export default function AboutMeSection() {
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-5xl font-extrabold text-gray-300">
-            About Me
+          <h2 className="text-3xl sm:text-5xl font-bold text-gray-300">
+            About <span className="text-cyan-400">
+              Me
+            </span>
           </h2>
           <p className="mt-4 text-gray-200 text-base sm:text-xl">
             I’m a passionate developer crafting modern
@@ -45,12 +48,12 @@ export default function AboutMeSection() {
             </p>
             {/* Call to Action Buttons */}
             <div className="flex gap-3 lg:gap-6 mt-4">
-              <button className="w-max bg-blue-500 hover:bg-blue-400 text-white lg:px-4 px-3 py-3 rounded-lg shadow-lg cursor-pointer">
+              <Link href="https://drive.google.com/file/d/1pZUD8rx7Dedg_3Xcw1FY4L6HBZ3peZJv/view" className="w-max bg-blue-500 hover:bg-blue-400 text-white lg:px-4 px-3 py-3 rounded-lg shadow-lg cursor-pointer">
                 Download Resume
-              </button>
-              <button className="w-max bg-gray-700 hover:bg-gray-600 text-white px-4 py-3 rounded-lg shadow-lg cursor-pointer">
+              </Link>
+              <Link href="#contact" className="w-max bg-gray-700 hover:bg-gray-600 text-white px-4 py-3 rounded-lg shadow-lg cursor-pointer">
                 Contact Me
-              </button>
+              </Link>
             </div>
           </div>
 

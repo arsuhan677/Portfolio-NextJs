@@ -10,27 +10,27 @@ export default function Projects() {
       description:
         "Full-Stack-Project Using NodeJs, ExpressJs, Mongodb, Nodemon with Next.js, Tailwind CSS, and ReactJs.",
       image:
-        "",
+        "/project/doc.png",
       live: "https://your-portfolio.com",
-      github: "https://github.com/username/portfolio",
+      github: "https://github.com/arsuhan677/Doctor-Appointment-with-NodeJs",
     },
     {
       title: "E-commerce App",
       description:
-        "Full-stack e-commerce app using React, Redux, Node.js, and MongoDB.",
+        "Full-stack e-commerce app using NextJs, PrismaORM, Prisma Studio PrismaORM, Prisma Studio",
       image:
-        "",
+        "/project/cap.png",
       live: "https://ecommerce-demo.com",
-      github: "https://github.com/username/ecommerce",
+      github: "https://github.com/arsuhan677/Prisma-Full-Stack-Project-SA",
     },
     {
-      title: "Blog Platform",
+      title: "Todo Application",
       description:
-        "A blog platform with authentication and CRUD operations using Next.js and Prisma ORM.",
+        "A blog platform with Todo Application and CRUD operations using Rreact Js and JavaScript Update, Delete, Add...",
       image:
-        "",
-      live: "https://blog-demo.com",
-      github: "https://github.com/username/blog-platform",
+        "/project/todo.png",
+      live: "https://admirable-mermaid-f670ab.netlify.app/",
+      github: "https://admirable-mermaid-f670ab.netlify.app/",
     },
     {
       title: "React router Blog App",
@@ -68,8 +68,8 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-5xl font-extrabold text-gray-300">
-            My Projects
+          <h2 className="text-3xl sm:text-5xl font-bold text-gray-300">
+            My <span className="text-cyan-400">Projects</span>
           </h2>
           <p className="mt-4 text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto">
             Some of the projects I have built using modern web technologies.
