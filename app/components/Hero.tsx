@@ -1,8 +1,11 @@
 "use client";
 
-import Image from "next/image";
+// import Image from "next/image";
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+
 import Link from "next/link";
 import { FaGithub, FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa";
+// import React from 'react';
 
 export default function Hero() {
   return (
@@ -10,7 +13,12 @@ export default function Hero() {
       <div className="container mx-auto px-3 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* RIGHT */}
         <div className="order-1 lg:order-2 flex justify-center">
-          <Image
+           <DotLottieReact
+      src="/lootion/lotion.json"
+      loop
+      autoplay
+    />
+          {/* <Image
             src="/images/logo.png"
             alt="logo"
             width={400}
@@ -22,13 +30,16 @@ export default function Hero() {
     max-w-[680px] sm:max-w-[320px] md:max-w-[380px] lg:max-w-[820px]
     h-auto
   "
-          />
+          /> */}
         </div>
 
         {/* LEFT CONTENT */}
         <div className="order-2 lg:order-1 text-center lg:text-left">
           <h1 className="text-4xl sm:text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
-            <span className="text-cyan-400 text-2xl lg:text-4xl">Hello, I'm</span> <br />
+            <span className="text-cyan-400 text-2xl lg:text-4xl">
+              Hello, I'm
+            </span>{" "}
+            <br />
             <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
               Aminur Rahman
             </span>
