@@ -64,12 +64,12 @@ export default function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-12">
 
           {/* ===== Left Info ===== */}
-          <div className="space-y-8 text-center md:text-left">
-            <h2 className="text-2xl sm:text-3xl font-bold text-white">
+          <div className="space-y-8 md:text-left">
+            <h2 className="text-2xl text-center lg:text-left sm:text-3xl font-bold text-white">
               Contact Information
             </h2>
 
-            <p className="text-gray-300 max-w-md mx-auto md:mx-0">
+            <p className="text-gray-300 text-center lg:text-left max-w-md mx-auto md:mx-0">
               I’m always open to job opportunities, collaborations, or conversations.
             </p>
 
