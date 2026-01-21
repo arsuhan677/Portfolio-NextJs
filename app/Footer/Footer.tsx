@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 export default function Footer() {
     return (
-        <footer className="bg-[#1a1a1a] text-white">
+        <footer className="bg-gray-800 text-white">
             {/* Main Footer Content */}
-            <div className="max-w-[1737px] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-14 md:py-16 lg:py-20">
+            <div className="max-w-[1737px] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-14 md:py-16 lg:py-12">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-10 lg:gap-12">
 
                     {/* Brand Section */}
@@ -44,7 +44,7 @@ export default function Footer() {
                     </div>
 
                     {/* Link Columns */}
-                    <div className="lg:col-span-3 grid grid-cols-2 sm:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
+                    <div className="lg:col-span-3 grid grid-cols-2 sm:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
 
                         {/* Quick Links */}
                         <div>
@@ -69,7 +69,7 @@ export default function Footer() {
                         </div>
 
                         {/* Help Links */}
-                        <div className="col-span-2 sm:col-span-1">
+                        {/* <div className="col-span-2 sm:col-span-1">
                             <h3 className="text-white font-bold text-sm sm:text-base mb-4 uppercase tracking-wider">Help</h3>
                             <ul className="space-y-2.5">
                                 <li><Link href="#" className="text-xs sm:text-sm text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Return Policy</Link></li>
@@ -77,7 +77,7 @@ export default function Footer() {
                                 <li><Link href="#" className="text-xs sm:text-sm text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Careers</Link></li>
                                 <li><Link href="#" className="text-xs sm:text-sm text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Privacy Policy</Link></li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

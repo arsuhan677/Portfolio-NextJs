@@ -12,14 +12,14 @@ export default function Hero() {
     <section className="py-10">
       <div className="container mx-auto px-3 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* RIGHT */}
-        <div className="order-1 lg:order-2 flex justify-center">
+        <div className="order-1 lg:order-2 flex justify-center -mt-26 lg:-mt-8">
            <DotLottieReact
-      src="/lootion/developer.json"
+      src="/lootion/codding.json"
       loop
       autoplay
       style={{
-    width: 520,
-    height: 480,
+    width: 550,  
+    height: 520,  
   }}
     />
           {/* <Image
@@ -38,7 +38,7 @@ export default function Hero() {
         </div>
 
         {/* LEFT CONTENT */}
-        <div className="order-2 lg:order-1 text-center lg:text-left">
+        <div className="order-2 lg:order-1 text-center lg:text-left -mt-24 lg:mt-0">
           <h1 className="text-4xl sm:text-4xl md:text-5xl xl:text-6xl font-bold leading-tight">
             <span className="text-cyan-400 text-2xl lg:text-4xl">
               Hello, I'm
