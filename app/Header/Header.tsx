@@ -17,7 +17,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="#home">
-              <span className="text-2xl font-bold text-indigo-500">
+              <span className="text-2xl font-bold text-white">
                 AR Suhan
               </span>
             </Link>
