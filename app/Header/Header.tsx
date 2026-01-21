@@ -11,7 +11,8 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 shadow-lg bg-gradient-to-br from-[#0b1023] via-[#0f172a] to-[#020617]">
+    // <header className="sticky top-0 z-50 shadow-lg bg-gradient-to-br from-[#0b1023] via-[#0f172a] to-[#020617]">
+    <header className="sticky top-0 z-5 shadow-lg bg-gradient-to-br from-[#0b1023] via-[#0f172a] to-[#020617]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Left Links */}
