@@ -14,9 +14,13 @@ export default function Hero() {
         {/* RIGHT */}
         <div className="order-1 lg:order-2 flex justify-center">
            <DotLottieReact
-      src="/lootion/lotion.json"
+      src="/lootion/developer.json"
       loop
       autoplay
+      style={{
+    width: 520,
+    height: 480,
+  }}
     />
           {/* <Image
             src="/images/logo.png"
