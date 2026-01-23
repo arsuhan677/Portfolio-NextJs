@@ -18,7 +18,7 @@ import {
   SiTailwindcss,
   SiBootstrap,
   SiPostman,
-  SiGit,
+  SiTypescript,
 } from "react-icons/si";
 
 export default function Skills() {
@@ -27,16 +27,16 @@ export default function Skills() {
     { id: 2, name: "CSS", icon: <FaCss3Alt className="text-blue-500 w-8 h-8" /> },
     { id: 3, name: "JavaScript", icon: <FaJs className="text-yellow-400 w-8 h-8" /> },
     { id: 3, name: "TailwindCss", icon: <SiTailwindcss className="text-cyan-400 w-8 h-8" /> },
-    { id: 3, name: "TailwindCss", icon: <SiBootstrap className="text-blue-600 w-8 h-8" /> },
+    { id: 3, name: "Bootstrapp", icon: <SiBootstrap className="text-blue-600 w-8 h-8" /> },
     { id: 4, name: "React Js", icon: <FaReact className="w-8 h-8 text-cyan-400" /> },
     { id: 5, name: "Next.js", icon: <SiNextdotjs className="w-8 h-8 text-white" /> },
+    { id: 5, name: "TypeScript", icon: <SiTypescript className="w-8 h-8 text-green-600" /> },
     { id: 6, name: "Prisma ORM", icon: <SiPrisma className="w-8 h-8 text-blue-400" /> },
     { id: 11, name: "Node.js", icon: <FaNodeJs className="w-8 h-8 text-green-600" /> },
     { id: 9, name: "MongoDB", icon: <SiMongodb className="w-8 h-8 text-green-500" /> },
     { id: 9, name: "Postman", icon: <SiPostman className="w-8 h-8 text-orange-500" /> },
     { id: 7, name: "Redux", icon: <SiRedux className="w-8 h-8 text-purple-500" /> },
     { id: 8, name: "Supabase", icon: <SiSupabase className="w-8 h-8 text-blue-500" /> },
-    { id: 8, name: "Git", icon: <SiGit className="w-8 h-8 text-orange-600" /> },
     { id: 10, name: "Docker", icon: <FaDocker className="w-8 h-8 text-blue-600" /> },
   ];
 
@@ -58,7 +58,7 @@ export default function Skills() {
           {skills.map((skill) => (
             <div
               key={skill.id}
-              className="flex flex-col items-center justify-center p-6 bg-gray-800 rounded-2xl shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer"
+              className="flex flex-col items-center border border-gray-600 justify-center p-6 bg-gray-800 rounded-2xl shadow-lg hover:scale-105 transition-all duration-300"
             >
               <div className="p-4 bg-gray-700 rounded-full mb-3">
                 {skill.icon}
