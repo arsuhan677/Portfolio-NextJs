@@ -81,7 +81,7 @@ export default function Projects() {
           {projects.map((project) => (
             <div
               key={project.title}
-              className="bg-gray-800 rounded-2xl border hover:border-blue-300 overflow-hidden shadow-lg hover:scale-105 transition-all duration-400"
+              className="bg-gray-800 rounded-2xl border hover:border-blue-300 overflow-hidden shadow-lg"
             >
               {/* Project Image */}
               <div className="relative w-full h-56 sm:h-64">
