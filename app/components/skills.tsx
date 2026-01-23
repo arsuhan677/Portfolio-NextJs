@@ -10,7 +10,6 @@ import {
   FaReact,
   FaDocker,
   FaNodeJs,
-  
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -24,9 +23,7 @@ import {
   SiTypescript,
 } from "react-icons/si";
 
-
 export default function Skills() {
-
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -34,23 +31,82 @@ export default function Skills() {
     });
   }, []);
 
-
   const skills = [
-    { id: 1, name: "HTML", icon: <FaHtml5 className="text-orange-500 w-8 h-8" /> },
-    { id: 2, name: "CSS", icon: <FaCss3Alt className="text-blue-500 w-8 h-8" /> },
-    { id: 3, name: "JavaScript", icon: <FaJs className="text-yellow-400 w-8 h-8" /> },
-    { id: 4, name: "TailwindCss", icon: <SiTailwindcss className="text-cyan-400 w-8 h-8" /> },
-    { id: 5, name: "Bootstrapp", icon: <SiBootstrap className="text-blue-600 w-8 h-8" /> },
-    { id: 6, name: "React Js", icon: <FaReact className="w-8 h-8 text-cyan-400" /> },
-    { id: 7, name: "Next.js", icon: <SiNextdotjs className="w-8 h-8 text-white" /> },
-    { id: 8, name: "TypeScript", icon: <SiTypescript className="w-8 h-8 text-green-600" /> },
-    { id: 9, name: "Prisma ORM", icon: <SiPrisma className="w-8 h-8 text-blue-400" /> },
-    { id: 10, name: "Node.js", icon: <FaNodeJs className="w-8 h-8 text-green-600" /> },
-    { id: 11, name: "MongoDB", icon: <SiMongodb className="w-8 h-8 text-green-500" /> },
-    { id: 12, name: "Postman", icon: <SiPostman className="w-8 h-8 text-orange-500" /> },
-    { id: 13, name: "Redux", icon: <SiRedux className="w-8 h-8 text-purple-500" /> },
-    { id: 14, name: "Supabase", icon: <SiSupabase className="w-8 h-8 text-blue-500" /> },
-    { id: 15, name: "Docker", icon: <FaDocker className="w-8 h-8 text-blue-600" /> },
+    {
+      id: 1,
+      name: "HTML",
+      icon: <FaHtml5 className="text-orange-500 w-8 h-8" />,
+    },
+    {
+      id: 2,
+      name: "CSS",
+      icon: <FaCss3Alt className="text-blue-500 w-8 h-8" />,
+    },
+    {
+      id: 3,
+      name: "JavaScript",
+      icon: <FaJs className="text-yellow-400 w-8 h-8" />,
+    },
+    {
+      id: 4,
+      name: "TailwindCss",
+      icon: <SiTailwindcss className="text-cyan-400 w-8 h-8" />,
+    },
+    {
+      id: 5,
+      name: "Bootstrapp",
+      icon: <SiBootstrap className="text-blue-600 w-8 h-8" />,
+    },
+    {
+      id: 6,
+      name: "React Js",
+      icon: <FaReact className="w-8 h-8 text-cyan-400" />,
+    },
+    {
+      id: 7,
+      name: "Next.js",
+      icon: <SiNextdotjs className="w-8 h-8 text-white" />,
+    },
+    {
+      id: 8,
+      name: "TypeScript",
+      icon: <SiTypescript className="w-8 h-8 text-green-600" />,
+    },
+    {
+      id: 9,
+      name: "Prisma ORM",
+      icon: <SiPrisma className="w-8 h-8 text-blue-400" />,
+    },
+    {
+      id: 10,
+      name: "Node.js",
+      icon: <FaNodeJs className="w-8 h-8 text-green-600" />,
+    },
+    {
+      id: 11,
+      name: "MongoDB",
+      icon: <SiMongodb className="w-8 h-8 text-green-500" />,
+    },
+    {
+      id: 12,
+      name: "Postman",
+      icon: <SiPostman className="w-8 h-8 text-orange-500" />,
+    },
+    {
+      id: 13,
+      name: "Redux",
+      icon: <SiRedux className="w-8 h-8 text-purple-500" />,
+    },
+    {
+      id: 14,
+      name: "Supabase",
+      icon: <SiSupabase className="w-8 h-8 text-blue-500" />,
+    },
+    {
+      id: 15,
+      name: "Docker",
+      icon: <FaDocker className="w-8 h-8 text-blue-600" />,
+    },
   ];
 
   return (
@@ -62,15 +118,20 @@ export default function Skills() {
             My <span className="text-cyan-400">Skills</span>
           </h2>
           <p className="mt-4 text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto">
-            I work with modern web technologies to build responsive and interactive applications.
+            I work with modern web technologies to build responsive and
+            interactive applications.
           </p>
         </div>
 
         {/* Grid */}
-        <div data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom" className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6">
-          {skills.map((skill) => (
-           <div
+        <div
+          
+
+          className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6"
+        >
+          {skills.map((skill, index) => (
+            <div data-aos="fade-up"
+          data-aos-delay={index * 100}
               key={skill.id}
               className="flex flex-col items-center border border-gray-600 justify-center p-6 bg-gray-800 rounded-2xl shadow-lg hover:scale-105 transition-all duration-300"
             >
