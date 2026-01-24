@@ -48,7 +48,7 @@ export default function AboutMeSection() {
             </p>
             {/* Call to Action Buttons */}
             <div className="flex gap-3 lg:gap-6 mt-4">
-              <Link href="https://drive.google.com/file/d/1pZUD8rx7Dedg_3Xcw1FY4L6HBZ3peZJv/view" className="w-max bg-blue-500 hover:bg-blue-400 text-white lg:px-4 px-3 py-3 rounded-lg shadow-lg cursor-pointer">
+              <Link target="_blank" href="https://drive.google.com/file/d/1T7cZj9sDbO2jm-JfuDGFt558KTtjkEsJ/view?usp=sharing" className="w-max bg-blue-500 hover:bg-blue-400 text-white lg:px-4 px-3 py-3 rounded-lg shadow-lg cursor-pointer">
                 Download Resume
               </Link>
               <Link href="#contact" className="w-max bg-gray-700 hover:bg-gray-600 text-white px-4 py-3 rounded-lg shadow-lg cursor-pointer">

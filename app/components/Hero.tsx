@@ -61,8 +61,8 @@ export default function Hero() {
 
           {/* BUTTONS */}
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
-            <Link
-              href="https://drive.google.com/file/d/1pZUD8rx7Dedg_3Xcw1FY4L6HBZ3peZJv/view"
+            <Link target="_blank"
+              href="https://drive.google.com/file/d/1T7cZj9sDbO2jm-JfuDGFt558KTtjkEsJ/view?usp=sharing"
               className="w-full sm:w-auto text-center px-6 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-600 font-semibold hover:opacity-90 transition"
             >
               ⬇ Download Resume

@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer className="bg-gray-800 text-white">
             {/* Main Footer Content */}
-            <div className="max-w-[1737px] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-14 md:py-16 lg:py-12">
+            <div className="max-w-[1737px] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-14 md:py-16 lg:py-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-10 lg:gap-12">
 
                     {/* Brand Section */}
@@ -15,7 +15,7 @@ export default function Footer() {
                         </div>
 
                         <p className="text-sm sm:text-base text-gray-400 leading-relaxed max-w-sm">
-                            Discover the finest collection of premium caps and accessories. Quality meets style in every piece.
+                           Web Developer & UI Enthusiast
                         </p>
 
                         {/* Social Media Icons */}
@@ -61,23 +61,12 @@ export default function Footer() {
                         <div>
                             <h3 className="text-white font-bold text-sm sm:text-base mb-4 uppercase tracking-wider">Contact</h3>
                             <ul className="space-y-2.5">
-                                <li><Link href="#" className="text-xs sm:text-sm text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Order Tracking</Link></li>
-                                <li><Link href="#" className="text-xs sm:text-sm text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Terms & Conditions</Link></li>
-                                <li><Link href="#" className="text-xs sm:text-sm text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Payment Options</Link></li>
-                                <li><Link href="#" className="text-xs sm:text-sm text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Refund Policy</Link></li>
+                                <li><Link href="#" className="text-xs sm:text-sm text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">+880 1701635619</Link></li>
+                                <li><Link href="#" className="text-xs sm:text-sm text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">aminurrahmansuhan@gmail.com</Link></li>
+                                <li><Link href="#" className="text-xs sm:text-sm text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Dhaka, Bangladesh</Link></li>
                             </ul>
                         </div>
-
-                        {/* Help Links */}
-                        {/* <div className="col-span-2 sm:col-span-1">
-                            <h3 className="text-white font-bold text-sm sm:text-base mb-4 uppercase tracking-wider">Help</h3>
-                            <ul className="space-y-2.5">
-                                <li><Link href="#" className="text-xs sm:text-sm text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Return Policy</Link></li>
-                                <li><Link href="#" className="text-xs sm:text-sm text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">FAQs</Link></li>
-                                <li><Link href="#" className="text-xs sm:text-sm text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Careers</Link></li>
-                                <li><Link href="#" className="text-xs sm:text-sm text-gray-400 hover:text-white hover:translate-x-1 inline-block transition-all duration-200">Privacy Policy</Link></li>
-                            </ul>
-                        </div> */}
+                        
                     </div>
                 </div>
             </div>
