@@ -11,7 +11,7 @@ export default function Projects() {
         "Full-Stack-Project Using NodeJs, ExpressJs, Mongodb, Nodemon with Next.js, Tailwind CSS, and ReactJs.",
       image:
         "/project/doc.png",
-      live: "https://your-portfolio.com",
+      live: "https://doctor-frontend-khaki.vercel.app/",
       github: "https://github.com/arsuhan677/Doctor-Appointment-with-NodeJs",
     },
     {
